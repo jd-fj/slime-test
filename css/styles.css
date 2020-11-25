@@ -1,0 +1,43 @@
+hide the image that would have been showing, so we can wait for the user to click
+#initially-hidden {
+  display: none;
+}
+
+/* makes underlined clickable text to let user know you can click this */
+.clickable {
+  cursor: pointer;
+  color: white;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 50%;
+}
+
+
+
+/* W3 Schools */
+body, html {
+  height: 100%;
+  background-image: url(/img/turt2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg {
+ /* The image used */
+  background-image: url(/img/turt2.jpg);
+
+ /* Full height */
+  height: 100%;
+
+ /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
