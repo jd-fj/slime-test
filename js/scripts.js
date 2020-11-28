@@ -6,7 +6,11 @@ $(document).ready(function() {
   const sound3 = document.getElementById("sound3");
   const sound4 = document.getElementById("sound4");
   const sound5 = document.getElementById("sound5");
-  const array = [sound1, sound2, sound3, sound4, sound5];
+  const sound6 = document.getElementById("sound6");
+  const sound7 = document.getElementById("sound7");
+  const sound8 = document.getElementById("sound8");
+  const sound9 = document.getElementById("sound9");
+  const array = [sound1, sound2, sound3, sound4, sound5, sound6, sound7, sound8, sound9];
   
 
   // Play is triggered when mouse is over image
@@ -16,7 +20,7 @@ $(document).ready(function() {
   });
 
   $("#picture").click(function() { 
-    let rando = Math.floor(Math.random() * Math.floor(4));
+    let rando = Math.floor(Math.random() * Math.floor(10));
     array[rando].play();
   });
   
